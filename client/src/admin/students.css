@@ -1,0 +1,125 @@
+td.avatar{
+    height: 30px;
+    width: 30px;
+    background-color: #4e63d7;
+    background-image: linear-gradient(to right, rgba(78, 99, 215, 0.9) 0%, #5a85dd 100%);
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 65px;
+}
+tbody, td, tfoot, th, thead, tr{
+    padding: 5px 15px!important;
+    margin: 10px auto!important; 
+}
+.table>:not(:first-child){
+    border-top: 0px solid currentColor!important;
+}
+.utilisateur,.students {
+    overflow-y: scroll; 
+} 
+.utilisateur::-webkit-scrollbar,.students::-webkit-scrollbar {
+width: 12px;  
+}
+.utilisateur::-webkit-scrollbar-thumb,.students::-webkit-scrollbar-thumb {
+background: black;
+border-radius: 10px;
+}
+a{ 
+    text-decoration: none!important;
+}
+.whiteBox.shadow {
+    color: rgb(89, 89, 89);
+    font-size: 13px;
+    height: 70px;
+    margin: 20px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.col.col-6.row {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px 0;
+}
+
+.whiteBox span {
+    text-align: center;
+    justify-content: center;
+}
+
+.dashboard>.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.ant-row{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.count-teacher {
+    border: 1px solid #b7eb8f;
+    width: 30%;
+    padding: 1px;
+    color: #b7eb8f;  
+}
+.count-admin {
+    border: 1px solid #ffa39e; 
+    width: 30%;
+    padding: 1px;
+    color: #cf1322; 
+} 
+.count-gestionaire {
+    border: 1px solid #b7eb8f; 
+    width: 30%;
+    padding: 1px;
+    color: #389e0d; 
+}
+.count-student{
+    border: 1px solid #d3adf7;
+    width: 30%;
+    padding: 1px;
+    color: #531dab; 
+}
+
+.shadow:hover{ 
+    box-shadow: 0px 0px 28px 4px rgb(76 76 76 / 15%);
+    top: -10px;
+    position: relative;
+}
+.form-check-input:checked{ 
+    border-radius: 50px!important;
+    width: 30px; 
+    height: 30px; 
+    background-color: green!important;
+    border-color: white!important;
+}
+ 
+.not-available input{
+    border-radius: 50px!important;
+    width: 30px;
+    height: 30px;
+    background-color: red; 
+    border-color: white!important; 
+} 
+.available .form-check-input:focus{
+    border-color: white!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 253, 53, 0.25)!important;
+}
+ 
+.not-available .form-check-input:focus{
+    border-color: white!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(253, 13, 13, 0.25)!important;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "erp-gomycode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./api/server.js", 
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\"  \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
